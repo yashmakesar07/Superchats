@@ -1,0 +1,25 @@
+/* src/AuthComponent.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to the viewport height to center vertically */
+}
+
+
+button {
+    background-color: rgb(15, 128, 227);
+    color: black;
+    border: 2px solid black;    
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+    border-radius: 5px; /* Adjust the value to control the roundness of the edges */
+  }
+  
+  button:hover {
+    background-color: rgb(145, 145, 149);
+    color: white;
+    border-radius: 8px; /* Adjust the value for rounded edges on hover */
+  }
+   
